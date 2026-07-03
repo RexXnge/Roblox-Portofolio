@@ -55,7 +55,7 @@ function ProjectCard({ project, index }) {
           <>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={`https://picsum.photos/seed/${project.seed}/640/360`}
+              src={`https://img.youtube.com/vi/${project.yt}/hqdefault.jpg`}
               alt={project.alt}
               loading="lazy"
             />
