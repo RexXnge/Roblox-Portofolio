@@ -29,12 +29,12 @@ const projects = [
     stack: ['LuaU', 'RemoteEvent', 'Raycasting', 'TweenService'],
   },
   {
-    yt: 'ScMzIvxBSi4',
-    seed: 'roblox-donation-hub',
-    alt: 'Donation game preview',
-    title: 'Donation Hub',
-    desc: 'A social donation game with a secure Game Pass and DevProduct board, live donation leaderboards, and a custom notification and UI system.',
-    stack: ['LuaU', 'Game Passes', 'UI Systems', 'Notifications'],
+    yt: 'H6T7oIJhxXM',
+    seed: 'roblox-weapon-recoil',
+    alt: 'Weapon recoil preview',
+    title: 'Weapon with Recoil System',
+    desc: 'A gun with a spring-physics recoil system: each shot kicks the camera pitch/yaw which springs back to center, layered with procedural noise-based shake and an FOV punch that eases back to base. Recoil is driven by the player’s actual clicks client-side, so it stacks the faster you fire instead of resetting between shots, while the server stays authoritative over fire rate and damage.',
+    stack: ['LuaU', 'Camera', 'RenderStepped', 'Spring Physics'],
   },
 ];
 
