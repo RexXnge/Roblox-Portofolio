@@ -13,12 +13,12 @@ const projects = [
     stack: ['LuaU', 'Round System', 'Voting', 'UI'],
   },
   {
-    yt: 'ScMzIvxBSi4',
-    seed: 'roblox-round-arena',
-    alt: 'Round-based arena preview',
-    title: 'Arena Rounds',
-    desc: 'A round-based PvP framework with a map voting system, matchmaking states, live leaderboards, and a combat and progression loop tuned for fast sessions.',
-    stack: ['LuaU', 'Round System', 'Voting', 'Combat'],
+    yt: 'CTkGiPE6N5k',
+    seed: 'roblox-sprint-system',
+    alt: 'Sprint system preview',
+    title: 'Advanced Sprint System',
+    desc: 'A stamina-based sprint system with smooth FOV and camera tilt transitions, movement-state animations, and server-side stamina validation to stop speed exploits.',
+    stack: ['LuaU', 'Movement', 'Camera', 'Anti-Exploit'],
   },
   {
     yt: 'ScMzIvxBSi4',
