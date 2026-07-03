@@ -21,12 +21,12 @@ const projects = [
     stack: ['LuaU', 'Movement', 'Camera', 'Anti-Exploit'],
   },
   {
-    yt: 'ScMzIvxBSi4',
-    seed: 'roblox-trading-rpg',
-    alt: 'Trading RPG preview',
-    title: 'Questline RPG',
-    desc: 'An RPG core with missions, daily rewards, and a secure player-to-player trading system. Server-authoritative to keep duping and exploits out.',
-    stack: ['LuaU', 'Quests', 'Trading', 'Daily Rewards'],
+    yt: 'R23wy7IZJLo',
+    seed: 'roblox-place-system',
+    alt: 'Place system preview',
+    title: 'Place System',
+    desc: 'A grid-based building/placement system. Press 1-3 to pick an item, preview follows the mouse snapped to a grid, R rotates it 45 degrees, and clicking places it with a smooth rise-from-the-ground animation. Placement is restricted to the baseplate only (no floating or stacking on other items), and the server validates distance, surface, and occupied grid cells so a client can’t exploit the remote to spam or place through walls.',
+    stack: ['LuaU', 'RemoteEvent', 'Raycasting', 'TweenService'],
   },
   {
     yt: 'ScMzIvxBSi4',
