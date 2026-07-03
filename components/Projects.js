@@ -36,6 +36,14 @@ const projects = [
     desc: 'A social donation game with a secure Game Pass and DevProduct board, live donation leaderboards, and a custom notification and UI system.',
     stack: ['LuaU', 'Game Passes', 'UI Systems', 'Notifications'],
   },
+  {
+    yt: 'axFsD3SD1T8',
+    seed: 'roblox-past-work',
+    alt: 'Past work preview',
+    title: 'Past Work',
+    desc: 'A past project showcasing gameplay systems and scripting work.',
+    stack: ['LuaU'],
+  },
 ];
 
 function ProjectCard({ project, index }) {
