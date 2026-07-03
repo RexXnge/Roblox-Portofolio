@@ -5,12 +5,12 @@ import Reveal from './Reveal';
 
 const projects = [
   {
-    yt: 'ScMzIvxBSi4',
+    yt: 'axFsD3SD1T8',
     seed: 'roblox-obby-tycoon',
     alt: 'Tycoon game preview',
-    title: 'Skyline Tycoon',
-    desc: 'A full economy tycoon with persistent saves, a secure DevProduct shop, and a rebirth progression loop. Handles data across sessions without loss.',
-    stack: ['LuaU', 'ProfileStore', 'DataStore', 'DevProducts'],
+    title: 'Map Voting System',
+    desc: 'A map voting system letting players choose the next map between rounds, with live vote tallies and a fair tie-break flow.',
+    stack: ['LuaU', 'Round System', 'Voting', 'UI'],
   },
   {
     yt: 'ScMzIvxBSi4',
@@ -35,14 +35,6 @@ const projects = [
     title: 'Donation Hub',
     desc: 'A social donation game with a secure Game Pass and DevProduct board, live donation leaderboards, and a custom notification and UI system.',
     stack: ['LuaU', 'Game Passes', 'UI Systems', 'Notifications'],
-  },
-  {
-    yt: 'axFsD3SD1T8',
-    seed: 'roblox-past-work',
-    alt: 'Past work preview',
-    title: 'Past Work',
-    desc: 'A past project showcasing gameplay systems and scripting work.',
-    stack: ['LuaU'],
   },
 ];
 
@@ -85,12 +77,6 @@ function ProjectCard({ project, index }) {
             <span className="tag" key={t}>{t}</span>
           ))}
         </div>
-        <a href="#" className="view">
-          View Game
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
-            <path d="M7 17 17 7M9 7h8v8" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </a>
       </div>
     </Reveal>
   );
